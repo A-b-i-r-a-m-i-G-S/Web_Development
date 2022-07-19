@@ -1,0 +1,108 @@
+body{
+    margin: 0px;
+    background-color: #bfd7ff;
+}
+div{
+    text-align: center;
+    color: white;
+}
+h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 500%;
+    margin-bottom: 0px;
+    color: #788bff;
+}
+p{
+    line-height: 2;
+    font-weight: 600;
+}
+#description{
+    font-size: 2.7rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0px;
+    font-weight: normal;
+    color: #788bff;
+}
+.top-section {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px auto;
+    background-color: #bfd7ff;
+}
+h3{
+    color:#5465ff;
+    font-size: 2em;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 300;
+}
+h4{
+    color:#788bff;
+    font-size: 1.2rem;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 200;
+}
+.middle-section p{
+    font-family: 'Montserrat', sans-serif;
+}
+#logo{
+    height:300px;
+    width:200px;
+}
+hr{
+    border-style: dotted;
+    width: 30%;
+    border-width: 5px 0px 0px 0px;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+}
+#code{
+    width: 25%;
+    float: left;
+    margin-right: 20px;
+}
+#web{
+    width: 25%;
+    float: right;
+    margin-left: 20px;
+}
+#about{
+    width: 50%;
+    margin: 100px auto;
+}
+#skills{
+    margin: 100px auto;
+}
+#contact-me{
+    margin: 100px auto 50px auto;
+}
+.btn{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    background: linear-gradient(#788bff,#5465ff);
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+.bottom-section{
+    background: linear-gradient(#bfd7ff,#788bff);
+    padding: 10px;
+}
+.footer-link{
+    margin: 10px 20px;
+    text-align: center;
+    color:#5465ff;
+    text-decoration: none;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 100;
+}
+.ref{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;
+}
+.bottom-section p{
+    font-family: 'Montserrat',sans-serif;
+}
