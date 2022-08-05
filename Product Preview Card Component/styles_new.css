@@ -1,0 +1,73 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+    font-family: 'Montserrat',sans-serif;
+}
+
+.container-fluid{
+    width: 50%;
+    background-color: white;
+    border-radius: 10px;
+    margin: 4% auto;
+}
+img{
+    padding: 0 !important;
+    border-radius: 10px 0 0 10px !important; 
+}
+.content{
+    padding: 4%;
+}
+
+h2{
+    letter-spacing: 5px;
+    font-size: 1.2em;
+    color: grey;
+}
+
+h1{
+    font-family: 'Fraunces',serif;
+}
+
+p{
+    color: grey;
+    margin: 9% auto;
+}
+
+.new-price{
+    font-family: 'Fraunces',serif;
+    color: #218a67;
+    font-size: 2.5rem;
+    padding: 0;
+    margin: 0;
+    display: block;
+    float: left;
+}
+
+.old-price{
+    text-decoration: line-through;
+    display: inline-block;
+    margin-left: 10%;
+    padding-top: 5%;
+    margin-bottom: 10%;
+}
+
+.button{
+    clear: left;
+    background-color: #218a67;
+    margin:10% auto;
+    height: 8%;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    padding: 5px;
+}
+
+.button:hover{
+    background-color: #1a6b50;
+    cursor: pointer;
+}
+
+.attribution{
+    font-size: small;
+    text-align: center;
+}
