@@ -45,6 +45,10 @@ h1 {
     width: 150px;
 }
 
+.warm:hover{
+    background: linear-gradient( 0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5) ), linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+}
+
 .image {
     text-align: center;
 }
@@ -116,6 +120,10 @@ h3 {
     position: absolute;
     right: 10%;
     top: 30%;
+}
+
+.end:hover{
+    background: linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
 }
 
 /* Media queries */
