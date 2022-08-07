@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/A-b-i-r-a-m-i-G-S/Web_Development/tree/main/E-learning%20Landing%20page]
-- Live Site URL: [https://a-b-i-r-a-m-i-g-s.github.io/Web_Development/E-learning%20Landing%20page/index.html]
+- Solution URL: [Code](https://github.com/A-b-i-r-a-m-i-G-S/Web_Development/tree/main/E-learning%20Landing%20page)
+- Live Site URL: [Github pages](https://a-b-i-r-a-m-i-g-s.github.io/Web_Development/E-learning%20Landing%20page/index.html)
 
 ## My process
 
