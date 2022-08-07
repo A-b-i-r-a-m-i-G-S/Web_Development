@@ -1,17 +1,18 @@
-body{
-    font-family: 'Plus Jakarta Sans',sans-serif;
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
     background: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
 }
 
 /* Header styles */
 
-.navbar{
+.navbar {
     margin-top: 1.5%;
     margin-left: 10%;
     margin-right: 10%;
+    z-index: 1;
 }
 
-.start{
+.start {
     background-color: #13183f;
     border-radius: 30px;
     font-size: 1em;
@@ -22,23 +23,21 @@ body{
 
 /* Introduction styles */
 
-.intro{
-    margin: 10% auto;
-    margin-left: 10%;
-    margin-right: 10%;
+.intro {
+    margin: 10%;
 }
 
-h1{
+h1 {
     font-size: 3.5rem;
     font-weight: 800;
 }
 
-.warm{
-    background: linear-gradient(180deg, #ff6f48 0.04%, #f02aa6 100%) ;
+.warm {
+    background: linear-gradient(180deg, #ff6f48 0.04%, #f02aa6 100%);
     color: white;
 }
 
-.intro button{
+.intro button {
     border-radius: 30px;
     font-size: 1em;
     font-weight: 700;
@@ -46,51 +45,51 @@ h1{
     width: 150px;
 }
 
-.image{
+.image {
     text-align: center;
 }
 
-p{
+p {
     color: grey;
 }
 
 /* Courses */
 
-.courses{
+.courses {
     margin-left: 10%;
     margin-right: 10%;
 }
 
-.card{
+.card {
     padding: 1.5rem;
     margin-bottom: 15%;
     position: relative;
     border: none;
 }
 
-.content{
+.content {
     padding-top: 1.5rem;
 }
 
-h2{
+h2 {
     font-weight: 700;
 }
 
-h3{
+h3 {
     font-weight: 800;
     font-size: 1.4rem;
     margin-bottom: 7%;
 }
 
-.icons{
+.icons {
     border-radius: 50%;
     position: absolute;
     top: -30px;
 }
 
-.button{
+.button {
     border: none;
-    background:none;
+    background: none;
     color: #f74780;
     font-size: 1.2rem;
     font-weight: 800;
@@ -99,14 +98,14 @@ h3{
 
 /* Footer */
 
-#footer{
+#footer {
     background-color: #13183f;
     padding: 3rem;
     width: 100%;
     position: relative;
 }
 
-.end{
+.end {
     background: linear-gradient(180deg, #4851ff 0%, #f02aa6 99.92%);
     border: none;
     border-radius: 30px;
@@ -120,3 +119,64 @@ h3{
 }
 
 /* Media queries */
+
+@media (max-width: 767px) {
+
+    #desktop,
+    #tablet {
+        display: none;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .intro {
+        margin-right: 0;
+        height: 500px;
+        margin-top: 5%;
+    }
+
+    .heading{
+        padding-top: 70px;
+    }
+
+    #desktop,
+    #mobile {
+        display: none;
+    }
+
+    .image {
+        overflow: hidden;
+        object-fit: cover;
+        object-position: 30% 5%;
+        padding: 0;
+    }
+
+    #tablet {
+        display: block;
+        position: relative;
+        bottom: 19.8%;
+        right: 4.2%;
+    }
+
+    .card {
+        height: 17rem;
+    }
+}
+
+@media (min-width: 1137px){
+    #mobile,#tablet{
+        display: none;
+    }
+
+    #desktop{
+        display: block;
+        position: relative;
+        bottom: 32.8%;
+        right: 4.2%;
+    }
+
+    .intro{
+        margin-top: 5%;
+    }
+}
