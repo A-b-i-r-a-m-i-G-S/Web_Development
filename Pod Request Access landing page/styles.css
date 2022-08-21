@@ -1,0 +1,78 @@
+body {
+    /* background-color: #121725; */
+    background-image: url("assets/desktop/image-host.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    font-family: 'Chivo', sans-serif;
+    text-align: center;
+}
+
+.logo {
+    margin: 15% auto;
+}
+
+h1 {
+    font-weight: 300;
+    color: #54E6AF;
+}
+
+span {
+    color: white;
+}
+
+p {
+    color: #C2CBE5;
+    font-weight: 300;
+    line-height: 2;
+    width: 75%;
+    margin: auto;
+}
+
+.podcast-brand{
+    margin-top: 5%;
+}
+
+.podcast-brand img {
+    width: 15%;
+    margin: 3%;
+}
+
+#google {
+    margin-bottom: 5%;
+}
+
+#spotify {
+    margin-bottom: 4%;
+}
+
+#pocket {
+    margin-bottom: 5%;
+}
+
+#email {
+    background-color: #2C344B;
+    border: none;
+    font-family: 'Chivo',sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    width: 75%;
+    border-radius: 50px;
+    margin: 7% auto 4%;
+    padding: 3% 7%;
+}
+#email::placeholder{
+    color: #8b91a3;
+}
+.access{
+    background-color: #54E6AF;
+    border: none;
+    font-family: 'Chivo',sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    width: 89%;
+    border-radius: 50px;
+    margin: 0 auto 5%;
+    padding: 3% 7%;
+}
