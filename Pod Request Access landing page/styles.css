@@ -1,9 +1,5 @@
 body {
-    /* background-color: #121725; */
-    background-image: url("assets/desktop/image-host.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #121725;
     height: 100%;
     font-family: 'Chivo', sans-serif;
     text-align: center;
@@ -11,6 +7,19 @@ body {
 
 .logo {
     margin: 15% auto;
+}
+
+#mob-home-img {
+    opacity: 0.2;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.home-img {
+    display: none;
 }
 
 h1 {
@@ -30,7 +39,7 @@ p {
     margin: auto;
 }
 
-.podcast-brand{
+.podcast-brand {
     margin-top: 5%;
 }
 
@@ -54,7 +63,7 @@ p {
 #email {
     background-color: #2C344B;
     border: none;
-    font-family: 'Chivo',sans-serif;
+    font-family: 'Chivo', sans-serif;
     font-size: 1rem;
     font-weight: 600;
     width: 75%;
@@ -62,17 +71,93 @@ p {
     margin: 7% auto 4%;
     padding: 3% 7%;
 }
-#email::placeholder{
+
+#email::placeholder {
     color: #8b91a3;
 }
-.access{
+
+.access {
     background-color: #54E6AF;
     border: none;
-    font-family: 'Chivo',sans-serif;
+    font-family: 'Chivo', sans-serif;
     font-size: 1rem;
     font-weight: 600;
     width: 89%;
     border-radius: 50px;
     margin: 0 auto 5%;
     padding: 3% 7%;
+}
+
+#dots {
+    display: none;
+}
+
+@media(min-width:767px) {
+    body {
+        text-align: left;
+    }
+
+    .logo {
+        margin: 7% 5%;
+    }
+
+    #mob-home-img {
+        display: none;
+    }
+
+    .home-img {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .home-img img {
+        height: 703px;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    .content {
+        position: absolute;
+        top: 25%;
+        padding: 7% 5%;
+        z-index: 1;
+        background-color: #121725;
+        margin-right: 10%;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    .podcast-brand {
+        position: absolute;
+        top: 81%;
+        width: 100%;
+    }
+
+    #spotify {
+        margin-left: 1%;
+    }
+
+    .access {
+        width: 30%;
+        display: inline;
+        position: absolute;
+        top: 74.5%;
+        right: 16%;
+        height: 9%;
+        padding: 1%;
+    }
+
+    #dots {
+        display: inline;
+        position: relative;
+        margin-top: 78%;
+        margin-left: 6%;
+    }
+
 }
